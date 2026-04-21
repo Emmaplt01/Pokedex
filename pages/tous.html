@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tous les pokemons</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <link rel="stylesheet" href="./tousstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- ❌ supprimé : localhost -->
+    <!-- <script src="http://localhost/pokedex/js/single.js"></script> -->
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg rounded-5 m-4 nave" style="background-color: rgb(102, 155, 196);">
+        <div class="container-fluid">
+
+            <!-- ✔ corrigé -->
+            <a class="navbar-brand fw-bolder" href="../index.html">Pokedex</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <!-- ✔ corrigé -->
+                        <a class="nav-link active" href="../index.html">Accueil</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- ✔ corrigé -->
+                        <a class="nav-link" href="./tous.html">Tous les pokemons</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- ✔ corrigé -->
+                        <a class="nav-link fw-bold" style="background-color: white; border-radius: 21px; padding: 0.5rem;" href="./equipe.html">Mon équipe</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" id="recherche" placeholder="Recherche" style="border-radius: 21px;">
+                    <button class="btn btn-outline-dark" type="button" id="bouton_recherche" style="border-radius: 21px;">Rechercher</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<h1 id="chargement">Le chargement peut-être un peu long (environ 35s)</h1>
+
+<main class="d-flex flex-wrap justify-content-around gap-4 m-4"></main>
+
+<footer>
+    <nav class="nav rounded-5 justify-content-center m-5" style="background-color: rgb(102, 155, 196);">
+        <a class="nav-link" href="../index.html" style="color: black;">Pokedex</a>
+        <a class="nav-link" href="#" style="color: black;">Copyright ©</a>
+    </nav>
+</footer>
+
+<script src="../js/tous.js"></script>
+
+</body>
+</html>

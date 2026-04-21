@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(188, 70, 70);
+}
+.cartes {
+    background-color: white;
+    border-radius: 15px;
+    padding: 0.5rem;
+    width: 10rem;
+}

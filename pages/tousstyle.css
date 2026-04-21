@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(188, 70, 70);
+}
+
+@keyframes visible {
+    from {visibility:visible;}
+    to {
+      visibility:hidden;}
+}
+
+
+#chargement {
+  font-size:1.5rem;
+  text-align:center;
+  animation-name: visible;
+  animation-duration: 35s;
+  visibility:hidden;
+  color: black;
+  font-weight: bold;
+}
+.cartes{
+    width: 12rem; 
+    background-color: white;
+    border-radius: 21px;
+    padding: 0.5rem;
+}
+.carte-recherche {
+  width: 20rem;
+  border-radius: 21px;
+}

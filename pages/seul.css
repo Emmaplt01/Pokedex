@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(188, 70, 70);
+}
+
+.cartes{
+    border-radius: 21px;
+    padding: 0.5rem;
+}
+
+.image{
+    justify-content: right;
+}
